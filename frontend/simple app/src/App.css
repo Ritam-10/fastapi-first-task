@@ -1,0 +1,30 @@
+.main{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+} 
+
+.box{
+  border: 10px solid red;
+  padding: 100px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+}
+
+.btn{
+  margin-bottom: 0;
+  border: 2px solid blue;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+.label{
+  margin: 10px;
+  font-weight: bold;
+}
